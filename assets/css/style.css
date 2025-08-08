@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(61, 90, 113);
+    color: #b7ff00;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    color: #ffffff;
+}
+h1{
+    display: inline-block;
+    text-align: left;
+    font-size: 300%;
+    margin-left: 1%;
+}
+header nav{
+    margin-left: auto;
+    margin-top: auto;
+    font-size: 225%;
+}
+header nav ul li{
+    display: inline-block;
+}
+#profile{
+    display: left;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;   
+}
+#hero{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/gear-pile.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+body{
+    background-color: black;
+}
+h2{
+    font-size: 300%;
+    text-decoration: underline;
+    text-align: left;
+
+    color: #b7ff00;
+}
+p{
+    color: #ffffff;
+    margin: 1%;
+}
+.card{
+    flex-wrap: 1 0 200px;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#spotlight{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    background-image: url("../images/boeing-dream-lifter.jpg");
+    background-size: cover;
+    background-position: center;
+    border: #b7ff00;
+    border-style: solid;
+    border-width: 8px;
+}
+.textbox{
+    background-color: rgb(61, 90, 113);
+    opacity: 80%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+.textbox a{
+    font-size: 300%;
+}
+.textbox p{
+    font-size: 200%;
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 800px;
+    grid-row: 2;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px;
+
+}
+.columns{
+    display: flex;
+    flex-direction: column;
+    
+    flex: 1;
+    margin: 5px;
+    border: #b7ff00;
+    border-style: solid;
+    border-width: 8px;
+}
+.place-holder{
+    background-image: url("../images/f-15.jpg");
+}
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact ul{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    text-align: center;
+    /* margin-right: 100px; */
+    padding-top: 100px;
+    align-content: center;
+    margin-bottom: 75px;
+}
+#contact ul li{
+    display: inline-block;
+}
+.card-contact{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: rgb(61, 90, 113);
+    background-size:cover;
+    width: 275px;
+    text-align: center;
+    margin-right: 100px;
+    border-color: #b7ff00;
+    border-style: solid;
+    border-width: 8px;
+}
+.card-contact:last-child{
+    margin-right: 0;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #b7ff00;
+    justify-content: center;
+}
+.card-contact:first-child{
+    margin-left: -50px;
+}
